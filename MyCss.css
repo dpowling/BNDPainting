@@ -5,6 +5,8 @@ html, body /*This sets a standard to the entirity of the page it's linked to */
  margin: 0;
  padding: 0;
  font-family: 'Open sans';
+ position: relative;
+ overflow-x: hidden;
 }
 
 
