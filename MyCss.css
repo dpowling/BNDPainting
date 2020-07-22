@@ -457,10 +457,12 @@ justify-content: center;
 
 }
 /* Mobile Optimasation */
-@media screen and (max-width: 800px){
+@media all and (max-width: 800px){
 
 .logo{
-  padding-left: 1vw;
+  display: block;
+  position: absolute;
+  padding-left: 4.7vw;
 }
 nav{
 position: fixed;
