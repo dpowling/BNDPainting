@@ -440,10 +440,6 @@ footer
 nav{
   height: 10vh;
 }
-.logo{
-text-align: center;
-justify-content: center;
-}
 
 .galleryThumb1{
   max-width: 300px;
@@ -462,7 +458,7 @@ justify-content: center;
 .logo{
   display: block;
   position: absolute;
-  padding-left: 4.7vw;
+  padding-left: 5vw;
 }
 nav{
 position: fixed;
