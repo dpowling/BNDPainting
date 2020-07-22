@@ -542,6 +542,18 @@ footer{
   "b"
   "c";
 }
+.carda{
+  width: 100%;
+  max-width: none;
+}
+.cardb{
+  width: 100%;
+  max-width: none;
+}
+.cardc{
+  width: 100%;
+  max-width: none;
+}
 
 
 }
