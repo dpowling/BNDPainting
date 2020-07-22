@@ -452,7 +452,7 @@ nav{
 }
 
 img{
-  max-width: 310px;
+  max-width: 490px;
 }
 .logo{
   display: block;
@@ -544,15 +544,15 @@ footer{
 }
 .carda{
   width: 100%;
-  max-width: none;
+  max-width: 490px;
 }
 .cardb{
   width: 100%;
-  max-width: none;
+  max-width: 490px;
 }
 .cardc{
   width: 100%;
-  max-width: none;
+  max-width: 490px;
 }
 
 
