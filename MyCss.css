@@ -398,6 +398,8 @@ footer
   grid-template-columns:repeat(3, auto);
   grid-template-areas: "a b c";
   grid-area:b;
+  grid-gap: 1em;
+  padding:1em;
   justify-items: start;
 }
 .footerCol1{
@@ -510,14 +512,11 @@ opacity: 1;
 .main
 {
   display: flex;
-  grid-template-columns: 1fr minmax(320px, 790px) 1fr;
-  grid-template-areas:
-  "a b c";
 }
 .nestedGrid
 {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: minmax(300px, 800px);
   grid-template-areas:
   "a"
   "b"
@@ -532,13 +531,12 @@ opacity: 1;
   "p";
 }
 footer{
-  grid-template-columns: auto auto auto;
-  grid-template-areas:
-  "a b c"
+  display: flex;
+
 }
 .footerContainer{
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: minmax(300px, 800px);
   grid-template-areas:
   "a"
   "b"
