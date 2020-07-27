@@ -134,6 +134,7 @@ h4
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 30px;
 }
 
 
@@ -182,6 +183,10 @@ h4
   padding: 20px;
   margin:10px;
   grid-area: e;
+}
+.heading2 h1
+{
+  font-size: 50px;
 }
 .heading3
 {
@@ -380,15 +385,24 @@ button:active {
 footer
 {
   display: grid;
-  height: 100%;
+  height: 200px;
   text-align: center;
   grid-gap: 1em;
   grid-template-columns:1fr minmax(700px, 1012px) 1fr;
   padding: 1em;
   grid-template-areas:
   "a b c";
-  background: #ddd;
+  background: #656465;
 
+}
+footer h4
+{
+  color: #f3f3f3;
+}
+footer li
+{
+  color: #dedddd;
+  padding: 0.3em 0 0.3em 0;
 }
 
 
@@ -400,25 +414,34 @@ footer
   grid-area:b;
   grid-gap: 1em;
   padding:1em;
-  justify-items: start;
+  justify-items: center;
 }
 .footerCol1{
   justify-content: start;
   grid-area:a;
-  min-width: 300px;
-  max-width: 300px;
 }
 .footerCol2{
   justify-content: start;
   grid-area:b;
-  min-width: 300px;
-  max-width: 300px;
 }
 .footerCol3{
   justify-content: start;
   grid-area:c;
-  min-width: 300px;
-  max-width: 300px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
 }
 /*Tablet / Small screen Optimisation */
 @media screen and (max-width: 1079px){
@@ -529,9 +552,11 @@ opacity: 1;
   "i"
   "n"
   "p";
+  grid-gap: 2em;
 }
 footer{
   display: flex;
+  height: 600px;
 
 }
 .footerContainer{
@@ -541,20 +566,28 @@ footer{
   "a"
   "b"
   "c";
+  justify-items: center;
 }
 .carda{
   width: 100%;
-  max-width: 490px;
+  max-width: 300px;
 }
 .cardb{
   width: 100%;
-  max-width: 490px;
+  max-width: 300px;
 }
 .cardc{
   width: 100%;
-  max-width: 490px;
+  max-width: 300px;
 }
-
+.heading2 h1
+{
+  font-size: 38px;
+}
+.footerCol2
+{
+  text-align: center;
+}
 
 }
 /* End of Mobile Optimasation */
