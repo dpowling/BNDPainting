@@ -600,5 +600,8 @@ footer{
   .headerFlag{
     margin-top: 10vh;
   }
+  h1{
+    font-size: 30px;
+  }
 }
 /* End of Mobile Optimasation */
