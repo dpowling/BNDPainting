@@ -475,7 +475,7 @@ nav{
 }
 
 img{
-  max-width: 300px;
+  max-width: 380px;
 }
 .logo{
   display: block;
@@ -590,7 +590,7 @@ footer{
 }
 .headerFlag
 {
-  max-height: 300px;
+  max-height: 200px;
 }
 
 }
