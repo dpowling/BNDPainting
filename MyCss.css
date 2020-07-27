@@ -104,6 +104,7 @@ h1
   font-weight: 800;
   text-decoration: none;
   font-size: 60px;
+  margin: 10px 0 10px 0;
 }
 
 p
@@ -180,13 +181,15 @@ h4
 }
 .heading2
 {
-  padding: 20px;
-  margin:10px;
+  padding: 5px;
+  margin:5px;
   grid-area: e;
 }
 .heading2 h1
 {
   font-size: 50px;
+  padding: 0;
+  margin: 0 0 20px 0;
 }
 .heading3
 {
@@ -204,7 +207,7 @@ h4
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s; /*Animation */
   height: auto;
-  padding: 0.5em;
+  padding: 0.5em 0.5em 1.2em 0.5em;
   min-width: 300px;
   max-width: 300px;
   grid-area: b;
@@ -221,7 +224,7 @@ h4
 /* Cards end */
 .carda img
 {
-  max-height: 200px;
+  height: 200px;
 }
 .carda p
 {
@@ -232,7 +235,7 @@ h4
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s; /*Animation */
   height: auto;
-  padding: 0.5em;
+  padding: 0.5em 0.5em 1.2em 0.5em;
   min-width: 300px;
   max-width: 300px;
   grid-area: c;
@@ -248,7 +251,7 @@ h4
 /* Cards end */
 .cardb img
 {
-  max-height: 200px;
+  height: 200px;
 }
 .cardb p
 {
@@ -259,7 +262,7 @@ h4
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s; /*Animation */
   height: auto;
-  padding: 0.5em;
+  padding: 0.5em 0.5em 1.2em 0.5em;
   min-width: 300px;
   max-width: 300px;
   grid-area: d;
@@ -276,7 +279,7 @@ h4
 /* Cards end */
 .cardc img
 {
-  max-height: 200px;
+  height: 200px;
 }
 .cardc p
 {
@@ -464,6 +467,10 @@ footer li
 
 nav{
   height: 10vh;
+}
+.carda p
+{
+  padding: 5px;
 }
 
 
