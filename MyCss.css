@@ -468,7 +468,7 @@ nav{
 
 
 }
-/* Mobile Optimasation */
+/* Small Tablet  & Mobile Optimasation */
 @media all and (max-width: 800px){
 .mfp-content{
   max-width: 300px;
@@ -594,5 +594,11 @@ footer{
   max-height: 200px;
 }
 
+}
+/*Small Mobile Optimasation */
+@media all and (max-width:400px){
+  .headerFlag{
+    margin-top: 10vh;
+  }
 }
 /* End of Mobile Optimasation */
