@@ -474,6 +474,11 @@ footer li
   background: #3B5998;
   color: white;
 }
+.nestedAbout .heading2
+{
+  grid-area: f;
+
+}
 .parallax{
   height: 300px;
   width:100%; /*note for self, without this, the wide photo would not go into the grid! */
@@ -676,6 +681,14 @@ footer{
   background-repeat: no-repeat;
   background-size: cover;
   grid-area: e;
+}
+.nestedAbout .heading2{
+  margin:0;
+  padding:0;
+}
+.nestedAbout .heading2 h1{
+  margin:0;
+  padding:0;
 }
 
 }
