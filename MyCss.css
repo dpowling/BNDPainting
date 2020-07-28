@@ -667,6 +667,16 @@ footer{
   margin-top: 6vh;
   max-height: 200px;
 }
+.parallax{
+  height: 300px;
+  width:100%; /*note for self, without this, the wide photo would not go into the grid! */
+  background-image: url("img/sunriseJervisBay.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: e;
+}
 
 }
 /*Small Mobile Optimasation */
