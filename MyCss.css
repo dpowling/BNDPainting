@@ -531,7 +531,7 @@ nav{
 /* Small Tablet  & Mobile Optimasation */
 @media all and (max-width: 800px){
 .mfp-content{
-  max-width: 300px;
+  width: 350px;
 }
 
 img{
@@ -610,8 +610,7 @@ opacity: 1;
   "g"
   "h"
   "i"
-  "n"
-  "p";
+  "n";
   grid-gap: 2em;
 }
 .nestedAbout{
