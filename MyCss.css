@@ -106,6 +106,14 @@ h1
   font-size: 60px;
   margin: 10px 0 10px 0;
 }
+h5
+{
+  color: #3273a8;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 60px;
+  margin: 10px 0 10px 0;
+}
 
 p
 {
@@ -214,6 +222,12 @@ h4
   grid-area: e;
 }
 .heading2 h1
+{
+  font-size: 50px;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+.heading2 h5
 {
   font-size: 50px;
   padding: 0;
@@ -632,6 +646,11 @@ opacity: 1;
   margin-bottom: 0px;
   margin-top: 10vh;
 }
+.nestedAbout h5{
+  font-size: 35px;
+  margin-bottom: 0px;
+  margin-top: 10vh;
+}
 footer{
   display: flex;
   height: 600px;
@@ -662,6 +681,10 @@ footer{
 {
   font-size: 38px;
 }
+.heading2 h5
+{
+  font-size: 38px;
+}
 .footerCol2
 {
   text-align: center;
@@ -685,7 +708,7 @@ footer{
   margin:0;
   padding:0;
 }
-.nestedAbout .heading2 h1{
+.nestedAbout .heading2 h5{
   margin:0;
   padding:0;
 }
@@ -697,6 +720,9 @@ footer{
     margin-top: 10vh;
   }
   h1{
+    font-size: 40px;
+  }
+  h5{
     font-size: 40px;
   }
 }
