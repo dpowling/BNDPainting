@@ -496,7 +496,7 @@ footer li
 .parallax{
   height: 300px;
   width:100%; /*note for self, without this, the wide photo would not go into the grid! */
-  background-image: url("img/sunriseJervisBay.jpg");
+  background-image: url("img/rsz_sunriseJervisBay.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -506,7 +506,7 @@ footer li
 .bottomFlag{
   height: 300px;
   width:100%; /*note for self, without this, the wide photo would not go into the grid! */
-  background-image: url("img/bndheaderlogo.jpg");
+  background-image: url("img/rsz_bndheaderlogo.jpg");
   background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
