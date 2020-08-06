@@ -254,6 +254,7 @@ h4
   max-width: 300px;
   grid-area: b;
   justify-self:end;
+  border-radius: 0.5em;
 }
 .carda:hover /* mouse over shadow */
 {
@@ -267,10 +268,15 @@ h4
 .carda img
 {
   height: 200px;
+  border-radius: 0.5em;
 }
 .carda p
 {
   padding: 10px;
+}
+.carda h4
+{
+  font-size: 20px;
 }
 .cardb
 {
@@ -281,6 +287,7 @@ h4
   min-width: 300px;
   max-width: 300px;
   grid-area: c;
+  border-radius: 0.5em;
 }
 .cardb:hover /* mouse over shadow */
 {
@@ -294,10 +301,15 @@ h4
 .cardb img
 {
   height: 200px;
+  border-radius: 0.5em;
 }
 .cardb p
 {
   padding: 10px;
+}
+.cardb h4
+{
+  font-size: 20px;
 }
 .cardc
 {
@@ -309,6 +321,7 @@ h4
   max-width: 300px;
   grid-area: d;
   justify-self:start;
+  border-radius: 0.5em;
 }
 .cardc:hover /* mouse over shadow */
 {
@@ -322,10 +335,15 @@ h4
 .cardc img
 {
   height: 200px;
+  border-radius: 0.5em;
 }
 .cardc p
 {
   padding: 10px;
+}
+.cardc h4
+{
+  font-size: 20px;
 }
 
 .mfp-content {
@@ -427,7 +445,7 @@ button:active {
 }
 /* end of button */
 
-footer
+.footer
 {
   display: grid;
   height: 200px;
@@ -440,11 +458,11 @@ footer
   background: #656465;
 
 }
-footer h4
+.footer h4
 {
   color: #f3f3f3;
 }
-footer li
+.footer li
 {
   color: #dedddd;
   padding: 0.3em 0 0.3em 0;
@@ -488,6 +506,22 @@ footer li
   background: #3B5998;
   color: white;
 }
+
+.footerFooter
+{
+  Width:100vw;
+  height: 50px;
+  grid-area: a b c;
+  background-color:#4d4d4d ;
+  color: #c1c1c1;
+  text-align: center;
+}
+.footerFooter p
+{
+  padding-top:15px;
+  margin: 0 40px 0 0;
+}
+
 .nestedAbout .heading2
 {
   grid-area: f;
@@ -512,6 +546,13 @@ footer li
   background-repeat: no-repeat;
   background-size: cover;
   grid-area: e;
+}
+.imgCon:hover
+{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1)
+  transform: scale(1.1);
+  transition: 1s;
 }
 /*Tablet / Small screen Optimisation */
 @media screen and (max-width: 1079px){
@@ -543,9 +584,16 @@ nav{
 
 }
 /* Small Tablet  & Mobile Optimasation */
-@media all and (max-width: 800px){
+@media all and (max-width: 900px){
 .mfp-content{
   width: 350px;
+}
+@media (orientation:landscape){
+.logo img {
+height:50px;
+width: 60px;
+
+}
 }
 
 img{
@@ -651,7 +699,7 @@ opacity: 1;
   margin-bottom: 0px;
   margin-top: 10vh;
 }
-footer{
+.footer{
   display: flex;
   height: 600px;
 
